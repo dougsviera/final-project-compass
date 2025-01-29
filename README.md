@@ -277,7 +277,7 @@ Porém antes da migração acontecer para a nova estrutura, precisamos fazer uma
 
 &nbsp;&nbsp;&nbsp;&nbsp;O sistema original precisou ser divido em um sistema distribuído de microserviços para possibilitar uma escalabilidade muito maior. Foi necessária a diferenciação de ambientes, sendo divido entre produção e DEV/QA, sendo ambos idênticos mas com diferenças significativas no provisionamento de recursos computacionais. Utilização de banco de dados MultiAZ com Read Replica para garantir failover e maior escalabilidade. Inserção do ambiente de produção em auto-scaling groups para escalonamento horizontal com base na demanda, tanto para in-scale quanto para out-scale.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Também foram utilizados diversos serviços e ferramentas auxiliares para envio de relatórios de faturamento, políticas de acesso, segurança do sistema, resiliência e tolerância a falhas por parte da apicação.
+&nbsp;&nbsp;&nbsp;&nbsp;Também foram utilizados diversos serviços e ferramentas auxiliares para envio de relatórios de faturamento, políticas de acesso, segurança do sistema, resiliência e tolerância a falhas por parte da aplicação.
 
 &nbsp;&nbsp;&nbsp;&nbsp;A arquitetura do novo sistema garante excelência operacional, eficiência de performance, segurança, sustentabilidade e confiabilidade, que são todos os pilares do Well-Archtected Framework.
 
